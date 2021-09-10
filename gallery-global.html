@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Global Gallery | CSS</title>
+    <style>
+
+        body {
+            background-color: #222;
+        }
+
+        img {
+            width: 300px;
+            border: 20px solid white;
+
+            margin-right: -172px;
+            margin-left: -172px;
+
+            /*---- new ---- */
+            transform: rotate(0deg);
+         
+        }
+
+        #gallery {
+            margin-top: 200px;
+            text-align: center;
+          /*  border: 1px solid red; */
+        }
+
+        .i-1 {
+            transform: rotate(-40deg);
+            border-color:  #999999;
+        }
+        .i-2 {
+            transform: rotate(-20deg);
+            border-color:  #b3b3b3;
+        }
+        .i-3 {
+            transform: rotate(0deg);
+            border-color:  #cccccc;
+        }
+        .i-4 {
+            transform: rotate(20deg);
+            border-color: #e6e6e6;
+        }
+        .i-5 {
+            transform: rotate(40deg);
+        }
+
+    </style>
+</head>
+<body>
+
+    <p id="gallery">
+        <img class="i-1" src="https://i.picsum.photos/id/1057/400/600.jpg?hmac=_dexh3dfb_QrP30KuGZhyi0wg5zJ28D2anONoUhjgFY" alt="">
+        <img class="i-2" src="https://i.picsum.photos/id/958/400/600.jpg?hmac=Zu6X3a7oeZFq_1svrFd5Qh7XB3zZOn5-GjrDNAnL-rM" alt="">
+        <img class="i-3" src="https://i.picsum.photos/id/102/400/600.jpg?hmac=sgibmMbR7RPoO09cb9v4d7hdGXQwKPiPy0wuuS13k1M" alt="">
+        <img class="i-4" src="https://i.picsum.photos/id/1012/400/600.jpg?hmac=oCXqW04pDORKJsE8ILQ-8ydixLylGVZbM2eiApi5lDc" alt="">
+        <img class="i-5" src="https://i.picsum.photos/id/112/400/600.jpg?hmac=UVVbSSYEuSXPqLFKy-admwgF7gM4FJB35WyXPPfzYek" alt="">
+    </p>
+    
+</body>
+</html>
